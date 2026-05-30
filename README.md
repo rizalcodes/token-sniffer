@@ -80,20 +80,23 @@ python token_sniffer.py check 0xA0b86991c6218b36c1d19d4a2e9Eb0cE3606eB48
 ---
 
 ## 📊 Sample Output
+
+```
 🟢 TOKEN SAFETY REPORT
 ━━━━━━━━━━━━━━━━━━━━━━
 🏷️ USD Coin ($USDC)
 📍 0xA0b86991...606eB48
 ⭐ Safety Score: 95/100 — SAFE ✅
-📊 Key Metrics:
 
-Honeypot    : NO ✅
-Buy Tax     : 0.0%
-Sell Tax    : 0.0%
-Owner Hold  : 0.0%
-Holders     : 2,100,000+
-LP Locked   : YES ✅
-Verified    : YES ✅
+📊 Key Metrics:
+- Honeypot    : NO ✅
+- Buy Tax     : 0.0%
+- Sell Tax    : 0.0%
+- Owner Hold  : 0.0%
+- Holders     : 2,100,000+
+- LP Locked   : YES ✅
+- Verified    : YES ✅
+```
 
 ---
 
@@ -123,6 +126,8 @@ Verified    : YES ✅
 ---
 
 ## 🏗️ Architecture
+
+```
 token_sniffer.py
 ├── GoPlusClient        → GoPlus Security API integration
 │   ├── check_token()        → full token security data
@@ -136,6 +141,7 @@ token_sniffer.py
 │   ├── analyze()            → full safety analysis + scoring
 │   └── quick_check()        → fast honeypot check only
 └── TokenSnifferBot     → Telegram bot with 5 commands
+```
 
 ---
 
@@ -164,8 +170,11 @@ GoPlus free tier supports up to **10,000 requests/day**.
 ---
 
 ## 🔧 Requirements
+
+```
 web3>=6.0.0
 requests>=2.28.0
+```
 
 ---
 
