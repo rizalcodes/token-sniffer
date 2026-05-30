@@ -1,5 +1,5 @@
 """
-token_sniffer.py - Token Safety Analyzer & Sniffer
+token_sniffer.py - Token Safety Analyzer & Sniffer 
 By Rizal | github.com/rizalcodes
 Detect honeypots, rug pulls, and scam tokens on Ethereum
 Multi-source: Etherscan V2 + GoPlus Security API + Web3.py
