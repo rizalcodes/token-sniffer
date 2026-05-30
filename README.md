@@ -1,6 +1,6 @@
 # 🔍 Token Sniffer Bot
 
-> Detect honeypots, rug pulls & scam tokens on Ethereum — powered by GoPlus Security API + Etherscan V2 + Web3.py with Telegram alerts.
+> Detect honeypots, rug pulls & scam tokens on Ethereum — powered by GoPlus Security API + Etherscan V2 + Web3.py with Telegram alerts. 
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?style=flat-square&logo=python)
 ![GoPlus](https://img.shields.io/badge/GoPlus-Security_API-red?style=flat-square)
